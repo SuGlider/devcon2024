@@ -1,7 +1,7 @@
 | Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
-# _Hello world example_
+# _Arduino Debug and Logging example_
 
 This is the simplest buildable example made to be used as a template for new projects running Arduino-esp32 as an ESP-IDF component.
 See [Arduino-esp32](https://components.espressif.com/components/espressif/arduino-esp32) in ESP Registry.
@@ -50,4 +50,22 @@ In order to active it, it is necessary to select the proper Debug Level using `i
 Go to `(Top Menu) → Arduino Configuration → Debug Log Configuration → Default log level` and select the level.
 ESP32 Arduino Default Level is just ERROR.
 
+![Arduino options in Menuconfig](https://github.com/SuGlider/devcon2024/blob/main/images/arduino_log_level.png?raw=true)
+
+## Changing the Bootloader Log level
+
+Bootloader messages are printed when the device boots. It may contain information about the boot process and also about the SoC, such as Flash, Partition Table and so on.
+It is possible to change the Log Level of these information.
+Go to `(Top) → Bootloader config → Bootloader log verbosity` and select the level
+
+![Arduino options in Menuconfig](https://github.com/SuGlider/devcon2024/blob/main/images/bootload_log_level.png?raw=true)
+
+## Changing the IDF Components Log level
+
+These messages are printed when by the various IDF components.
+It may contain information about each IDF Component operation.
+It is possible to change the Log Level of these information.
+Go to `(Top) → Component config → Log output → Default log verbosity` and select the level
+
+![Arduino options in Menuconfig](https://github.com/SuGlider/devcon2024/blob/main/images/idf_boot_level.png?raw=true)
 
