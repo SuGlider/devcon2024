@@ -1,0 +1,20 @@
+#
+# Arduino ESP32
+#
+CONFIG_AUTOSTART_ARDUINO=y
+# end of Arduino ESP32
+
+#
+# FREERTOS
+#
+CONFIG_FREERTOS_HZ=1000
+# end of FREERTOS
+
+#
+# Watchdog setting
+#
+CONFIG_ESP_TASK_WDT_CHECK_IDLE_TASK_CPU1=n
+
+# end of Watchdog setting
+# end of Component config
+
