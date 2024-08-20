@@ -58,7 +58,7 @@ set(EXTRA_COMPONENT_DIRS esp32-arduino-lib-builder/components/arduino_tinyusb)
 It is also neessary to clone `esp32-arduino-lib-builder` and `arduino_tinyusb`.
 Execute those two lines from the Project Folder:
 
-`git clone https://github.com/espressif/esp32-arduino-lib-builder.git esp32-arduino-lib-builder`
+`git clone https://github.com/espressif/esp32-arduino-lib-builder.git esp32-arduino-lib-builder`\
 `git clone https://github.com/hathach/tinyusb.git esp32-arduino-lib-builder/components/arduino_tinyusb/tinyusb`
 
 After that just run `idf.py set-target esp32s2` or `esp32s3` and then `idf.py -p PORT flash`. 
