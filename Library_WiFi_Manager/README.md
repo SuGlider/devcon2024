@@ -7,8 +7,8 @@ This is the simplest buildable example made to be used as a template for new pro
 See [Arduino-esp32](https://components.espressif.com/components/espressif/arduino-esp32) in ESP Registry.
 
 The Arduino Library used in this example is the WiFi Manager that allows users to select a WiFi SSID from a list created within a Web Page served by the ESP32.
-For more information, please read https://github.com/tzapu/WiFiManager
-Arduino Libraries Information: https://www.arduinolibraries.info/libraries/wi-fi-manager
+For more information, please read https://github.com/tzapu/WiFiManager \
+Arduino Libraries Information: https://www.arduinolibraries.info/libraries/wi-fi-manager \
 This library figures among the top starred llibraries based on https://www.arduinolibraries.info/
 
 Any other library can be used as well.
